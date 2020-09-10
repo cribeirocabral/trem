@@ -1,0 +1,110 @@
+                                                    html,
+                                                    body {
+                                                        margin: 0;
+                                                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                                    }
+                                                    /* CABEÇALHO */
+                                                    
+                                                    #logo {
+                                                        width: 45px;
+                                                        padding-top: 10px;
+                                                        padding-left: 10px;
+                                                    }
+                                                    
+                                                    #cabecalho {
+                                                        background-color: #042629;
+                                                        position: fixed;
+                                                        width: 100%;
+                                                        height: 65px;
+                                                        z-index: inherit;
+                                                    }
+                                                    
+                                                    ul {
+                                                        list-style: none;
+                                                        margin: 0;
+                                                    }
+                                                    
+                                                    nav {
+                                                        float: right;
+                                                        margin: 0;
+                                                    }
+                                                    
+                                                    li {
+                                                        float: left;
+                                                        padding: 22px 10px;
+                                                    }
+                                                    
+                                                    li:hover {
+                                                        background-color: #2d6e75;
+                                                        transition: .8s;
+                                                    }
+                                                    
+                                                    li a {
+                                                        text-decoration: none;
+                                                        color: white;
+                                                        font-weight: bold;
+                                                    }
+                                                    /* capa*/
+                                                    
+                                                    #capa {
+                                                        background: url(IMG/FUNDO.jpg);
+                                                        height: 100%;
+                                                        text-align: center;
+                                                        background-size: cover;
+                                                    }
+                                                    
+                                                    #titulo {
+                                                        color: white;
+                                                        font-size: 80px;
+                                                        padding-top: 15%;
+                                                        margin-bottom: 20px;
+                                                    }
+                                                    
+                                                    #subtitulo {
+                                                        color: white;
+                                                        padding-left: 20%;
+                                                        padding-right: 20%;
+                                                    }
+                                                    
+                                                    #ods14 {
+                                                        color: white;
+                                                        border: 1px white solid;
+                                                        padding: 5px 10px 5px 10px;
+                                                        text-decoration: none;
+                                                        border-radius: 5px;
+                                                    }
+                                                    
+                                                    #ods14:hover {
+                                                        background: #042629;
+                                                    }
+                                                    /* conteúdo */
+                                                    
+                                                    .text {
+                                                        padding-left: 20%;
+                                                        padding-right: 20%;
+                                                    }
+                                                    
+                                                    .icon {
+                                                        width: 65px;
+                                                    }
+                                                    /* FLOAT - LAYOUT */
+                                                    
+                                                    .coluna {
+                                                        float: left;
+                                                    }
+                                                    
+                                                    .um {
+                                                        width: 100%;
+                                                    }
+                                                    
+                                                    .dois {
+                                                        width: 40%;
+                                                    }
+                                                    
+                                                    .tres {
+                                                        width: 30%;
+                                                    }
+                                                    
+                                                    .quatro {
+                                                        width: 22%;
+                                                    }
